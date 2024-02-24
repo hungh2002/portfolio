@@ -1,0 +1,27 @@
+nav {
+  background-color: transparent;
+  position: sticky;
+  top:30%;
+  float: right;
+  z-index: 3;
+  width: 20%;
+  height: 50%;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    li a {
+    display: block;
+    text-align: center;
+    }
+    
+    .hide {
+      display: none;
+    }
+    
+    .title:hover + .hide {
+      display: block;
+    }
+  }
+}
