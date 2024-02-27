@@ -1,7 +1,7 @@
-const AboutMe = () =>{
-  return (
-    <div id='about-me'>About me</div>
-  );
-}
+
+
+const AboutMe = () => {
+  
+};
 
 export default AboutMe;
